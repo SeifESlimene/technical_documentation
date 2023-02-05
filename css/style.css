@@ -1,0 +1,81 @@
+/*
+*** GLOBALS
+*/
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+ul {
+  margin: 15px 0;
+}
+
+/*
+*** START NAV
+*/
+
+#navbar {
+  position: fixed;
+  width: 25%;
+  height: 100vw;
+  border-right: 3px solid #000;
+}
+
+#navbar header {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#navbar a {
+  display: block;
+  padding: 15px 20px;
+  border-top: 1px solid #000;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/*
+*** END NAV
+*/
+
+/* START MAIN
+***
+*/
+
+#main-doc {
+  width: 70%;
+  margin-left: 28%;
+  padding-top: 50px;
+}
+
+.main-section {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.main-section h1 {
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin: 25px 0;
+}
+
+.main-section p {
+  line-height: 1.6em;
+}
+
+/*
+*** END MAIN
+*/
+
+@media only screen and(max-width: 700px) {
+}
